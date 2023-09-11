@@ -3,19 +3,38 @@
 
 
 body {
-  padding: 0;
-  margin: 0;
-  background-color: #050504;
+  padding: 0px;
+  margin: 0px;
+  background-color: #151515;
   color: #EEEEEE;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  align-items: center;
-  align-content: center;
-  align-self: center;
 }
 
+* {
+  user-select: none;
+  -webkit-user-drag: none;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: none;
+  outline: none;
+}
+
+a:visited {
+  text-decoration: underline;
+  color: none;
+  outline: none;
+}
+
+
+
 .toprow {
-  background-color: #111511;
+  background-color: #151515;
   width: 100%;
   height: 75px;
   display: flex;
@@ -96,6 +115,8 @@ tfoot {
 
 .divforlogo3  :hover.testing2 {
   height: 40px;
+  text-align:center;
+  vertical-align: bottom;
   
   border-radius: 20px;
   transition: all 0.3s ease;
@@ -123,15 +144,49 @@ p {
   margin: 0 auto;
 }
 
+form {
+  width: 500px;
+  
+  margin: 40px auto;
+}
+
+input[type="text"], input[type="email"] {
+  width: 500px;
+  
+  /* width: 2000px; */
+  padding-left: 10px;
+  border-radius: 4px;
+  background-color: #333333;
+  border: none;
+  height: 30px;
+  color: #D1D5CC;
+  margin-bottom: 20px;
+}
+
+button {
+  height: 40px;
+  width: 60px;
+  background-color: #333333;
+  border: 1px solid #4e4e4e;
+  
+
+  color: #D1D5CC;
+  border-radius: 4px;
+}
+/* h1 {
+  color: #D5D1CC;
+} */
+
 .intro {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  width: 800px;
+
+  margin: 10px auto;
 }
 
 .crossedword {
 
   color: grey;
-  margin-top: 15px;
+  margin-top: 10px;
   font-size: 25px;
   margin-bottom: 1px;
 }
@@ -139,13 +194,14 @@ p {
 .correctedWord {
   color: #dd0d0d;
   margin-top: 1px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-size: 25px;
 }
 
 .LiveStickers {
   font-size: 50px;
   margin: 0px;
+  display: inline;
 }
 
 .CheckIn {
@@ -167,6 +223,33 @@ p {
   padding: 0px;
 }
 
+.stickerDog {
+  /* margin-top: 30px; */
+  width: 50px;
+}
+
+.coverimage  {
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.coverimage img  {
+  border-radius: 20px;
+}
+
+.maingheading {
+  text-align: center;
+  /* margin-left: 50px; */
+}
+
+.IOSImage {
+  width: 400px;
+  border-radius: 22px;
+  Vertical-align: bottom;
+
+}
+
 .phonebottom {
   width: 100px;
   /* vertical-align: center;
@@ -181,11 +264,14 @@ p {
   height: 30px;
   align-items: left;
   margin-left: 10px;
+  margin-top: 0px;
+  
 }
 
 .Reply {
   height: 30px;
   margin-left: 70px;
+  margin-bottom: 0px;
 }
 
 .IOS {
@@ -197,14 +283,32 @@ td {
 }
 
 .commentIOs {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 800;
 }
+
+table {
+  /* text-align: center; */
+  /* align-self: center; */
+  /* align-items: center; */
+  /* align-content: center; */
+  /* align-tracks: center; */
+  /* -moz-box-align: center; */
+  /* -ms-flex-align: center; */
+  /* -webkit-box-align: center; */
+  /* justify-content: center; */
+  /* justify-self: center; */
+  /* justify-items: center; */
+  margin: 0 auto;
+
+}
+
 
 
 
 .IOSTable tr:nth-child(1) td:nth-child(1) {
   width: 150px;
+  /* height: 30px; */
 }
 
 .IOSTable tr:nth-child(1)  td:nth-child(2) {
@@ -228,7 +332,9 @@ td {
 }
 
 .IOSTable tr:nth-child(1)   {
-  height: 90px;
+  height: 20px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .IOSTable tr:nth-child(2)   {
@@ -252,6 +358,8 @@ td {
 }
 .IOSTable tr:nth-child(6) td:nth-child(2)   {
   padding: 0px;
+  /* width: 1000px;
+  display: inline-block; */
 }
 
 .IOSTable tr:nth-child(7) td:nth-child(1)   {
@@ -297,8 +405,9 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: #121212;
-    padding: 70px 0;
+	background-color: #222222;
+  padding: 70px 0;
+  /* bottom: 0; */
 }
 .footer-col{
    width: 25%;
@@ -368,6 +477,8 @@ ul{
     width: 100%;
 }
 }
+
+
 
 
 
