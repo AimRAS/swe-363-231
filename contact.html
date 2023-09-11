@@ -25,13 +25,19 @@
     <div class="conactPage">
         <div>
             <form action="">
-                <label for="">Full Name<input type="text" name="" id="" ></label>
+                <label for="">Full Name<input type="text" name="" id="" required></label>
                 
-                <label for="">Email<input type="email" name="" id=""></label>
-                <label for="">Message<input type="text" name="" id=""></label>
-                <button>Send</button>
+                <label for="">Email<input type="email" name="" id="" required></label>
+                <label for="">Message<input type="text" name="" id="" required></label>
+                <button type="submit">Send</button>
         
             </form>
+            <div class="popup" id="popup">
+                <h2>Thank you!</h2>
+                <p>Your message has been successfully submitted</p>
+                <button onclick="closePopup()">Ok</button>
+
+            </div>
         </div>
         <div class="contactInfo">
             <h1>Contact Info</h1>
@@ -96,6 +102,33 @@
             </div>
         </div>
    </footer>
+
+   <script>
+    
+    if (isFalse) {
+        const myDiv = document.getElementById("popup");
+        myDiv.style.visibility = "visible";
+    }
+
+ 
+
+    function openPopup() {
+        popup.classList.add("open-popup")
+        document.querySelector(".popup").style.display = "block";
+     
+    }
+    function closePopup() {
+        document.querySelector(".popup").style.display = "none";
+    }
+
+    function submitForm() {
+        document.querySelector(".popup").style.display = "block";
+    }
+
+    document.querySelector("form").addEventListener("submit", submitForm);
+
+
+   </script>
     
 </body>
 </html>
