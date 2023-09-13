@@ -3,16 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Hire Me</title>
     <link rel="stylesheet" href="syling.css" />
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="icon" href="assets/logoPersonal.png">
-    
 </head>
 <body>
-    <script>document.querySelector(".popup").style.display = "block";</script>
-    
     <!-- Navigation -->
     <nav>
         <div class="logo">
@@ -25,43 +22,42 @@
             <li><a href="index.html">Tournaments</a></li>
             <li><a href="Matches.html">Matches</a></li>
             <li><a href="#">Stats</a></li>
-            <li onclick="closePopup()"><a onclick="closePopup()" href="contact.html">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
             <li><a href="Hire.html">Hire Me</a></li>
+            
         </ul>
     </nav>
-    
-    <!-- Main -->
-    <main>
-        <div class="conactPage">
-            <div>
-                <form action="">
-                    <label for="">Full Name<input type="text" name="" id="" required></label>
-                    
-                    <label for="">Email<input type="email" name="" id="" required></label>
-                    <label for="">Message<input type="text" name="" id="" required></label>
-                    <button onsubmit="submitForm()" type="submit">Send</button>
-            
-                </form>
-                <div class="popup" id="popup">
-                    <h2>Thank you!</h2>
-                    <p>Your message has been successfully submitted</p>
-                    <button onclick="closePopup()">Ok</button>
-    
-                </div>
-            </div>
-            <div class="contactInfo">
-                <h1>Contact Info</h1>
-                
-    
-                <h4>Email: abdullah.sahwan.2021@gmail.com</h4>
-    
-                <a href="https://www.linkedin.com/in/abdullah-sahwan-764332248"><img src="assets/linkedin.png" alt="" class="contactIcon"></a>
-                <a href="https://github.com/AimRAS"><img src="assets/github.png" alt="" class="contactIcon"></a>
-                
-            </div>
-        </div>
 
-    </main>
+    <div class="hireMeForm">
+        <form action="Thanks.html" method="get">
+            <label for="">Full Name<input type="text" list="names" name="" id="" autocomplete="name" required></label>
+            <datalist id="names">
+                <option value="Abdullah">
+                <option value="Mohammed">
+                <option value="Xao">
+                <option value="Lew">
+              </datalist>
+            <label for="">Email<input type="email" name="" id="" autocomplete="email" required></label>
+            <label for="">Phone <input type="tel" name="phone" placeholder="05xxxxxxxx" autocomplete="tel"></label>
+            <label for="">
+                <select name="skills">
+                    <option value="" selected>Select your interest</option>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                    <option value="PHP">PHP</option>
+                    </select>
+
+            </label>
+            
+            <label for="">Message <textarea name="" id="" cols="30" rows="10"></textarea></label>
+            <button  type="submit">Send</button>
+
+        </form>
+    </div>
+
+
 
     <!-- footer -->
     <footer class="footer">
@@ -111,27 +107,5 @@
             <p class="rights">© 2023 made by  Abdullah Sahwan. All Rights Reserved. | credits | privacy</p>
         </div>
    </footer>
-
-   <script>
-
-    function submitForm() {
-        document.querySelector(".popup").style.display = "block";
-    }
-    
-    function closePopup() {
-        document.querySelector(".popup").style.display = "none";
-    }
-
-    
-    
-    // document.querySelector("form").addEventListener("submit", submitForm);
-
-  
-
-    
-
-
-   </script>
-    
 </body>
 </html>
