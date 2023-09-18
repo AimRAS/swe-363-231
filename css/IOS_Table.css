@@ -1,0 +1,169 @@
+
+.NameDrop {
+  border-radius: 19px;
+  width: 500px;
+  margin: 0px;
+  margin: 0px;
+  height: 100%;
+  Vertical-align: bottom;
+  
+  padding: 0px;
+}
+
+.stickerDog {
+  /* margin-top: 30px; */
+  width: 40px;
+  margin-right: -10px;
+  margin-bottom: -15px;
+}
+
+.stickerflower {
+  width: 50px;
+  margin-left: -10px;
+  margin-bottom: -15px;
+}
+
+
+
+
+.IOSImage {
+
+    width: 400px;
+    border-radius: 22px;
+    Vertical-align: bottom;
+  
+}
+  
+.phonebottom {
+    width: 100px;
+    /* vertical-align: center;
+    align-self: top; */
+    padding: 0px;
+    Vertical-align: top;
+    display: inline-block;
+  
+    margin: 0px;
+}
+  
+.voiceMainText {
+    font-size: 26px;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: center;
+    margin-right: 0px;
+    background: linear-gradient(to right, #ff7f50, #c02942);
+    color: linear-gradient(#ff7f50, #c02942);
+    /* background: -webkit-linear-gradient(#eee, #333); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: red; */
+  
+}
+  
+.swipe {
+    height: 30px;
+    align-items: left;
+    margin-left: 10px;
+    margin-top: 0px;
+    
+}
+  
+.Reply {
+    height: 30px;
+    margin-left: 70px;
+    margin-bottom: 0px;
+}
+  
+.IOS {
+    font-size: 77px;
+}
+  
+td {
+    margin: 0px;
+}
+  
+.commentIOs {
+    font-size: 11px;
+    font-weight: 800;
+}
+
+table {
+    margin: 0 auto;
+}
+  
+.IOSTable tr:nth-child(1) td:nth-child(1) {
+    width: 150px;
+    /* height: 30px; */
+}
+  
+  .IOSTable tr:nth-child(1)  td:nth-child(2) {
+    width: 150px;
+}
+  
+.IOSTable tr:nth-child(1)  td:nth-child(3) {
+    width: 90px;
+}
+  
+.IOSTable tr:nth-child(1)  td:nth-child(4) {
+    width: 450px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #050504;
+}
+  
+.IOSTable tr:nth-child(1)  td:nth-child(5) {
+    width: 150px;
+    text-align: left;
+  }
+  
+.IOSTable tr:nth-child(1)   {
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+  
+.IOSTable tr:nth-child(2)   {
+    height: 90px;
+}
+  
+.IOSTable tr:nth-child(3)   {
+    height: 30px;
+}
+  
+.IOSTable tr:nth-child(4)   {
+    height: 90px;
+}
+  
+.IOSTable tr:nth-child(5)   {
+    height: 20px;
+}
+  
+.IOSTable tr:nth-child(6) td:nth-child(1)   {
+    width: 140px;
+}
+.IOSTable tr:nth-child(6) td:nth-child(2)   {
+    padding: 0px;
+    /* width: 1000px;
+    display: inline-block; */
+}
+  
+.IOSTable tr:nth-child(7) td:nth-child(1)   {
+    padding-top: 0px;
+    padding-left: 20px;
+    margin-left: 20px;
+    width: 180px;
+    /* width: 50px; */
+    
+    
+    Vertical-align: top;
+    align-items:flex-start;
+    text-align: left;
+    
+    border: black;
+ }
+  
+.IOSTable tr:nth-child(7) td:nth-child(2)   {
+    width: 250px;
+}
