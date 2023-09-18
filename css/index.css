@@ -81,15 +81,9 @@ p {
   margin: 0 auto;
 }
 
-form {
-  width: 500px;
-  
-  margin: 40px auto;
-}
 
-label {
-  margin: 7px
-}
+
+
 
 .conactPage {
   display: flex;
@@ -116,68 +110,7 @@ label {
   width: 60px;
 }
 
-input[type="text"], input[type="email"], input[type="tel"] {
-  width: 450px;
-  font-size: 15px;
-  
-  /* width: 2000px; */
-  padding-left: 10px;
-  border-radius: 4px;
-  background-color: #333333;
-  border: none;
-  height: 40px;
-  color: #D1D5CC;
-  margin-bottom: 30px;
-}
 
-textarea {
-  width: 450px;
-  max-width: 450px;
-  min-width: 450px;
-  height: 40px;
-  min-height: 40px;
-  max-height: 400px;
-  
-  font-size: 15px;
-  
-  /* width: 2000px; */
-  padding-left: 10px;
-  border-radius: 4px;
-  background-color: #333333;
-  border: none;
-  
-  color: #D1D5CC;
-  margin-bottom: 30px;
-}
-
-select {
-  display: block;
-  background-color: #333333;
-  color: #D1D5CC;
-  border-radius: 5px;
-  border: none;
-  width: 200px;
-  height: 35px;
-
-
-  margin-bottom: 20px;
-}
-
-
-
-button {
-  height: 40px;
-  width: 60px;
-  background-color: #333333;
-  border: 1px solid #4e4e4e;
-  
-
-  color: #D1D5CC;
-  border-radius: 4px;
-}
-/* h1 {
-  color: #D5D1CC;
-} */
 
 .intro {
   width: 800px;
