@@ -41,9 +41,6 @@ a:visited {
 
 
 td {
-  /* border: 1px solid #333;
-   */
-  /* background-color: lightgrey; */
   border: 0px;
   padding: 0px;
   margin: 0px;
@@ -62,42 +59,21 @@ tfoot {
   color: #fff;
 }
 
-
-
-.SeachField {
-  border-radius: 5px;
-  background-color: #050504;
-  margin-top: 10px;
-  margin-left: 30px;
-  height: 20px;
-  place-content: "hello";
-  color: white;
-}
-
-
 p {
   max-width: 800px;
   text-align: center;
   margin: 0 auto;
 }
 
-
-
-
-
 .conactPage {
   display: flex;
-  /* text-align: center; */
-  /* align-content: center; */
   justify-content: center;
   margin: 20px auto;
-  /* border-spacing: 20px; */
-  /* padding: 20px; */
 }
 
 .contactInfo {
-  /* border-color: #10d358; */
-  border: 1px solid gray;
+  /* border with 1px and solid style with grey color */
+  border: 1px solid grey;
   border-radius: 22px;
   width: 400px;
   margin: 0px 50px;
@@ -149,8 +125,6 @@ p {
   margin: 0px;
 }
 
-
-
 .coverimage  {
   margin: 20px auto;
   text-align: center;
@@ -163,11 +137,9 @@ p {
 
 .maingheading {
   text-align: center;
-  /* margin-left: 50px; */
 }
 
 .matchesTable {
-  /* justify-content: center; */
   margin: 0 auto;
 }
 
@@ -180,5 +152,4 @@ p {
   left: 18%;
   text-align: center;
   color: #333;
-  /* display: none; */
 }
