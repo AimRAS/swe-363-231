@@ -11,7 +11,7 @@
 
 * {
   /* user cannot select text or any content */
-  user-select: none;
+  /* user-select: none; */
 
   /* user cannot drag images or any content */
   -webkit-user-drag: none;
@@ -33,7 +33,7 @@ body {
 
 
 
-a {
+/* a {
   text-decoration: none;
   color: none;
   outline: none;
@@ -43,7 +43,7 @@ a:visited {
   text-decoration: underline;
   color: none;
   outline: none;
-}
+} */
 
 
 

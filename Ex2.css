@@ -1,0 +1,61 @@
+/* Change all header cells of a table to uppercase */
+th {
+    text-transform: uppercase;
+}
+
+/* Change all links to green color */
+a {
+    color: green;
+
+}
+
+a:visited {
+    color: green;
+}
+
+
+
+/* Change the background color of all cells with the class "top" to red gold color */
+.top {
+    background-color: #ECAA4D;
+}
+
+
+  
+em {
+    background-color: blue;
+}
+
+#the_most_important {
+    text-transform: uppercase;
+    background-color: #ECAA4D;
+}
+
+
+
+/* advanced */
+
+h2 {
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: capitalize;
+}
+
+h2 + p::first-letter {
+    font-size: x-large;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+  }
+  
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+::selection {
+    background-color: yellow;
+  }
+  

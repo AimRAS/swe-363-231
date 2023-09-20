@@ -1,127 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="css/dark_theme.css" />
-    <link rel="stylesheet" href="css/navigation.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/forms.css">
-    <link rel="icon" href="assets/logoPersonal.png">
-    
-</head>
-<body>
-    
-    <!-- Navigation -->
-    <nav>
-        <div class="logo">
-            <!-- <img class="kfupmLogoClass" src="assets/kfupmTowerUpper.png" alt="KFUPM Logo" height="40"> -->
-            <p >Tournaments</p>
-        </div>
+<html lang="en" data-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="css/dark_theme.css" />
+        <link rel="stylesheet" href="css/navigation.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/forms.css">
+        <link rel="icon" href="assets/logoPersonal.png">
+        <script src="templete.js"></script>       
+    </head>
+    <body>
         
+        <!-- Navigation -->
+        <nav include="nav.html"></nav>
         
-        <ul>
-            <li><a href="index.html">Tournaments</a></li>
-            <li><a href="Matches.html">Matches</a></li>
-            <li><a href="#">Stats</a></li>
-            <li onclick="closePopup()"><a onclick="closePopup()" href="contact.html">Contact</a></li>
-            <li><a href="Hire.html">Hire Me</a></li>
-        </ul>
-    </nav>
-    
-    <!-- Main -->
-    <main>
-        <div class="conactPage">
-            <div>
-                <form action="">
-                    <label for="">Full Name<input type="text" name="" id="" required></label>
-                    
-                    <label for="">Email<input type="email" name="" id="" required></label>
-                    <label for="">Message<input type="text" name="" id="" required></label>
-                    <button onsubmit="submitForm()" type="submit">Send</button>
-            
-                </form>
-                <div class="popup" id="popup">
-                    <h2>Thank you!</h2>
-                    <p>Your message has been successfully submitted</p>
-                    <button onclick="closePopup()">Ok</button>
-    
-                </div>
-            </div>
-            <div class="contactInfo">
-                <h1>Contact Info</h1>
-        
-                <h4>Email: abdullah.sahwan.2021@gmail.com</h4>
-    
-                <a href="https://www.linkedin.com/in/abdullah-sahwan-764332248"><img src="assets/linkedin.png" alt="" class="contactIcon"></a>
-                <a href="https://github.com/AimRAS"><img src="assets/github.png" alt="" class="contactIcon"></a>
+        <!-- Main -->
+        <main>
+            <div class="conactPage">
+                <div>
+                    <form action="">
+                        <label for="">Full Name<input type="text" name="" id="" required></label>
+                        
+                        <label for="">Email<input type="email" name="" id="" required></label>
+                        <label for="">Message<input type="text" name="" id="" required></label>
+                        <button onsubmit="submitForm()" type="submit">Send</button>
                 
-            </div>
-        </div>
-
-    </main>
-
-    <!-- footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col">
-                    <h4>Overview</h4>
-                    <ul>
-                        <li><a href="index.html">Tournaments</a></li>
-                        <li><a href="Matches.html">Matches</a></li>
-                        <li><a href="#">Stats</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="Hire.html">Hire Me</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>get help</h4>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">shipping</a></li>
-                        <li><a href="#">returns</a></li>
-                        <li><a href="#">order status</a></li>
-                        <li><a href="#">payment options</a></li>
-                    </ul>
-                </div>
-                <!-- <div class="footer-col">
-                    <h4>online shop</h4>
-                    <ul>
-                        <li><a href="#">watch</a></li>
-                        <li><a href="#">bag</a></li>
-                        <li><a href="#">shoes</a></li>
-                        <li><a href="#">dress</a></li>
-                    </ul>
-                </div> -->
-                <div class="footer-col">
-                    <h4>Contact</h4>
-                    <div class="social-links">
-                        <a href="https://www.linkedin.com/in/abdullah-sahwan-764332248"><img src="assets/linkedin.png" alt="" class="contactIcon"></a>
-                        <a href="https://github.com/AimRAS"><img src="assets/github.png" alt="" class="contactIcon"></a>
-                        <!-- <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a> -->
+                    </form>
+                    <div class="popup" id="popup">
+                        <h2>Thank you!</h2>
+                        <p>Your message has been successfully submitted</p>
+                        <button onclick="closePopup()">Ok</button>
+        
                     </div>
                 </div>
+                <div class="contactInfo">
+                    <h1>Contact Info</h1>
+            
+                    <h4>Email: abdullah.sahwan.2021@gmail.com</h4>
+        
+                    <a href="https://www.linkedin.com/in/abdullah-sahwan-764332248"><img src="assets/linkedin.png" alt="" class="contactIcon"></a>
+                    <a href="https://github.com/AimRAS"><img src="assets/github.png" alt="" class="contactIcon"></a>
+                    
+                </div>
             </div>
-            <p class="rights">© 2023 made by  Abdullah Sahwan. All Rights Reserved. | credits | privacy</p>
-        </div>
-   </footer>
 
-   <script>
+        </main>
 
-    function submitForm() {
-        document.querySelector(".popup").style.display = "block";
-    }
-    
-    function closePopup() {
-        document.querySelector(".popup").style.display = "none";
-    }
+        <!-- footer -->
+        <footer include="Footer.html" class="footer"></footer>
 
-   </script>
-    
-</body>
+
+        <!-- sctipt to generate html templates -->
+        <script>
+            includeHTML();
+        </script>
+        <script>
+
+            function submitForm() {
+                document.querySelector(".popup").style.display = "block";
+            }
+            
+            function closePopup() {
+                document.querySelector(".popup").style.display = "none";
+            }
+
+        </script>
+        
+    </body>
 </html>

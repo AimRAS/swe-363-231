@@ -11,24 +11,14 @@
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/IOS_Table.css">
         <link rel="icon" href="assets/logoPersonal.png">
+        <link rel="stylesheet" href="Ex2.css">
+        <script src="templete.js"></script>
     </head>
     <body>
+        <!-- sctipt to generate html templates -->
+        
         <!-- Navigation -->
-        <nav>
-            <div class="logo" id="logo">
-                <!-- <img class="kfupmLogoClass" src="assets/kfupmTowerUpper.png" alt="KFUPM Logo" height="40"> -->
-                <p >Tournaments</p>
-            </div>
-            
-            
-            <ul>
-                <li><a href="index.html">Tournaments</a></li>
-                <li><a href="Matches.html">Matches</a></li>
-                <li><a href="#">Stats</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="Hire.html">Hire Me</a></li>
-            </ul>
-        </nav>
+        <nav include="nav.html"></nav>
 
         <!-- Main -->
         <main>
@@ -38,7 +28,7 @@
             <div class="intro">
                 <div class="maingheading"><h1>Brief</h1></div>
                 <p>
-                    Experience the thrill of competition on our university tournaments! register today, and be a part of the excitement. from esports to traditional sports, so there's something for everyone. stay up-to-date on the latest results and standings. So what are you waiting for? start your tournament journey!
+                    Experience the thrill of competition on our <em id="the_most_important">university tournaments!</em> register today, and be a part of the excitement. from esports to traditional sports, so there's something for everyone. stay up-to-date on the latest results and standings. So what are you waiting for? start your <em>tournament journey!</em>
                 </p>
             </div>
             
@@ -144,54 +134,17 @@
         </main>
 
         <!-- new line -->
+        
+
+         
+
 
         <!-- footer -->
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col">
-                        <h4>Overview</h4>
-                        <ul>
-                            <li><a href="index.html">Tournaments</a></li>
-                            <li><a href="Matches.html">Matches</a></li>
-                            <li><a href="#">Stats</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="Hire.html">Hire Me</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h4>get help</h4>
-                        <ul>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">shipping</a></li>
-                            <li><a href="#">returns</a></li>
-                            <li><a href="#">order status</a></li>
-                            <li><a href="#">payment options</a></li>
-                        </ul>
-                    </div>
-                    <!-- <div class="footer-col">
-                        <h4>online shop</h4>
-                        <ul>
-                            <li><a href="#">watch</a></li>
-                            <li><a href="#">bag</a></li>
-                            <li><a href="#">shoes</a></li>
-                            <li><a href="#">dress</a></li>
-                        </ul>
-                    </div> -->
-                    <div class="footer-col">
-                        <h4>Contact</h4>
-                        <div class="social-links">
-                            <a href="https://www.linkedin.com/in/abdullah-sahwan-764332248"><img src="assets/linkedin.png" alt="" class="contactIcon"></a>
-                            <a href="https://github.com/AimRAS"><img src="assets/github.png" alt="" class="contactIcon"></a>
-                            <!-- <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a> -->
-                        </div>
-                    </div>
-                </div>
-                <p class="rights">© 2023 made by  Abdullah Sahwan. All Rights Reserved. | credits | privacy</p>
-            </div>
-       </footer>
+        <footer include="Footer.html" class="footer"></footer>
+
+        <!-- sctipt to generate html templates -->
+        <script>
+            includeHTML();
+        </script>
     </body>
 </html>

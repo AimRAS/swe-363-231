@@ -42,3 +42,7 @@ nav li a{
     color: white;
     text-decoration: none;
 }
+
+nav ul li:first-child a {
+    text-decoration: underline;
+  }
